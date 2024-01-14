@@ -1,0 +1,44 @@
+body {
+    background-color: #daf0ff; /* Culorea caldă (de exemplu, un roșu intens) */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 150px; /* Ajustează această valoare pentru a muta conținutul spre stânga */
+}
+
+.profile-image {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.profile-text {
+    flex: 1;
+}
+

@@ -1,0 +1,31 @@
+.project:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out; /* Adăugăm tranziția pentru un efect mai plăcut */
+}
+
+.projects-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.project-details {
+    flex: 1;
+    color: #555;
+}
+.project a {
+    text-decoration: none; /* Elimină sublinierea */
+    color: inherit; /* Păstrează culoarea textului implicită */
+}

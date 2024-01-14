@@ -1,0 +1,51 @@
+.fish-store-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.fish-store-container h2 {
+    color: #333;
+    font-size: 28px;
+}
+
+.fish-store-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.fish-store-container h3 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.fish-store-container ol {
+    list-style: none;
+    counter-reset: section;
+}
+
+.fish-store-container li {
+    counter-increment: section;
+    margin-bottom: 20px;
+}
+
+.fish-store-container li strong {
+    font-weight: bold;
+}
+
+.fish-store-container li p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.fish-store-container li img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
