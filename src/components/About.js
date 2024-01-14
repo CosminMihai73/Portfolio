@@ -9,7 +9,8 @@ function About() {
                     <h2>Cosmin Mihai</h2>
                     <p>Student | Developer | Tech Enthusiast</p>
                 </div>
-                <img src="/portret.png" alt="Cosmin Mihai" className="profile-image" />
+                <img src={process.env.PUBLIC_URL + '/portret.png'} alt="Cosmin Mihai" className="profile-image" />
+
             </div>
 
             <h3>Studies</h3>

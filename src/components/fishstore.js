@@ -17,7 +17,7 @@ function FishStore() {
                     <p>
                         Users can search for products using a search bar.
                         The search query is used to retrieve relevant information from the database.
-                        <img src="/Fish.png" alt="Store" />
+                        <img src={process.env.PUBLIC_URL +"/Fish.png"} alt="Store" />
                     </p>
                 </li>
                 <li>
@@ -26,7 +26,7 @@ function FishStore() {
                         User registration and login functionality.
                         Secure password storage using hashing techniques.
                         Access control to restrict certain features to authenticated users.
-                        <img src="/fish3.png" alt="Store" />
+                        <img src={process.env.PUBLIC_URL +"/fish3.png"} alt="Store" />
                     </p>
                 </li>
                 <li>
@@ -35,21 +35,21 @@ function FishStore() {
                         Users can add products to their shopping cart.
                         The shopping cart retains product information and allows users to adjust quantities.
                         Total cost calculation and checkout functionality.
-                        <img src="/fish2.png" alt="Store" />
+                        <img src={process.env.PUBLIC_URL +"/fish2.png"} alt="Store" />
                     </p>
                 </li>
                 <li>
                     <strong>Products Display</strong>
                     <p>
                         Displaying products by categories.
-                        <img src="/fish4.png" alt="Store" />
+                        <img src={process.env.PUBLIC_URL +"/fish4.png"} alt="Store" />
                     </p>
                 </li>
                 <li>
                     <strong>Data base tables</strong>
                     <p>
                         Displaying products by categories.
-                        <img src="/fish5.png" alt="Store" />
+                        <img src={process.env.PUBLIC_URL +"/fish5.png"} alt="Store" />
                     </p>
                 </li>
             </ol>

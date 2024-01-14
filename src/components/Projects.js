@@ -12,7 +12,7 @@ function Projects() {
                     <p>An online fishing store made with PHP/HTML/CSS/Js</p>
                 </Link>
                 <Link to="/fishstore">
-                    <img src="/Fish.png" alt="Project 1" />
+                    <img src={process.env.PUBLIC_URL +"/Fish.png"} alt="Project 1" />
                 </Link>
             </div>
             <div className="project">
@@ -21,7 +21,7 @@ function Projects() {
                     <p>A notes application made with PHP/HTML/CSS</p>
                 </Link>
                 <Link to="/notes">
-                    <img src="/PROJECT2.png" alt="Project 1" />
+                    <img src={process.env.PUBLIC_URL +"/PROJECT2.png"} alt="Project 1" />
                 </Link>
             </div>
         </div>

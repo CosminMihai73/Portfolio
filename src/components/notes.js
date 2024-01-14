@@ -19,14 +19,14 @@ function Notes() {
                         Enables user registration and login functionality.
                         Implements secure password storage using hashing techniques.
                         Provides access control to restrict certain features to authenticated users.
-                        <img src="/PROJECT2.png" alt="Store" />
+                        <img src={process.env.PUBLIC_URL +"/PROJECT2.png"} alt="Store" />
                     </p>
                 </li>
                 <li>
                     <strong>Manage Notes:</strong>
                     <p>
                         Allows users to add, remove, or mark tasks as complete.
-                        <img src="/notite.png" alt="Store" />
+                        <img src={process.env.PUBLIC_URL +"/notite.png"} alt="Store" />
                     </p>
                 </li>
             </ul>
