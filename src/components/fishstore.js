@@ -48,7 +48,7 @@ function FishStore() {
                 <li>
                     <strong>Data base tables</strong>
                     <p>
-                        Displaying products by categories.
+                        The representation of tables in the database.
                         <img src={process.env.PUBLIC_URL +"/fish5.png"} alt="Store" />
                     </p>
                 </li>
