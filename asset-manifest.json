@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CosminMihai73.github.io/Portofolio/static/css/main.c3f95c97.css",
-    "main.js": "/CosminMihai73.github.io/Portofolio/static/js/main.77c1b2b6.js",
-    "static/js/787.c42588b0.chunk.js": "/CosminMihai73.github.io/Portofolio/static/js/787.c42588b0.chunk.js",
-    "index.html": "/CosminMihai73.github.io/Portofolio/index.html",
-    "main.c3f95c97.css.map": "/CosminMihai73.github.io/Portofolio/static/css/main.c3f95c97.css.map",
-    "main.77c1b2b6.js.map": "/CosminMihai73.github.io/Portofolio/static/js/main.77c1b2b6.js.map",
-    "787.c42588b0.chunk.js.map": "/CosminMihai73.github.io/Portofolio/static/js/787.c42588b0.chunk.js.map"
+    "main.css": "/CosminMihai73.github.io/static/css/main.c3f95c97.css",
+    "main.js": "/CosminMihai73.github.io/static/js/main.80844204.js",
+    "static/js/787.c42588b0.chunk.js": "/CosminMihai73.github.io/static/js/787.c42588b0.chunk.js",
+    "index.html": "/CosminMihai73.github.io/index.html",
+    "main.c3f95c97.css.map": "/CosminMihai73.github.io/static/css/main.c3f95c97.css.map",
+    "main.80844204.js.map": "/CosminMihai73.github.io/static/js/main.80844204.js.map",
+    "787.c42588b0.chunk.js.map": "/CosminMihai73.github.io/static/js/787.c42588b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3f95c97.css",
-    "static/js/main.77c1b2b6.js"
+    "static/js/main.80844204.js"
   ]
 }
