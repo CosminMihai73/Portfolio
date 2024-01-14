@@ -1,8 +1,8 @@
 {
   "name": "portofoliu",
   "version": "0.1.0",
-  "homepage":"CosminMihai73.github.io/Portofolio",
-  "private": false,
+  "homepage":"CosminMihai73.github.io",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
