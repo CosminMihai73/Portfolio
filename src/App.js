@@ -5,6 +5,8 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Fishstore from './components/fishstore';
 import Notes from "./components/notes";
+import Mp3Player from "./components/Mp3Player";
+import IPFromURL from "./components/ip";
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
                     <Route path="/Projects" element={<Projects />} />
                     <Route path="/fishstore" element={<Fishstore />} />
                     <Route path="/notes" element={<Notes />} />
+                    <Route path="/Mp3Player" element={<Mp3Player />} />
+                    <Route path="/ip" element={<IPFromURL />} />
 
                 </Routes>
             </div>

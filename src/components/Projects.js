@@ -24,6 +24,24 @@ function Projects() {
                     <img src={process.env.PUBLIC_URL +"/Fish.png"} alt="Project 1" />
                 </Link>
             </div>
+            <div className="project">
+                <Link to="/Mp3Player" className="project-details">
+                    <h3>Mp3Player</h3>
+                    <p>An Mp3Player made with Python</p>
+                </Link>
+                <Link to="/Mp3Player">
+                    <img src={process.env.PUBLIC_URL +"/mp3.png"} alt="Project 1" />
+                </Link>
+            </div>
+            <div className="project">
+                <Link to="/ip" className="project-details">
+                    <h3>Get Location from a URL</h3>
+                    <p>With this script, you can determine the location of a URL</p>
+                </Link>
+                <Link to="/ip">
+                    <img src={process.env.PUBLIC_URL +"/ip.png"} alt="Project 1" />
+                </Link>
+            </div>
         </div>
     );
 }
