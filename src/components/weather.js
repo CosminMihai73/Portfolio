@@ -1,12 +1,12 @@
 import React from 'react';
 import './fishstore.css'
 
-function Mp3Player() {
+function Weather() {
     return (
         <div className="fish-store-container">
-            <h2>Mp3 Player</h2>
+            <h2>Weather App</h2>
             <p>
-               An Mp3 Player made with python
+                A weather app made with Python
             </p>
 
             <h3>Features</h3>
@@ -14,8 +14,8 @@ function Mp3Player() {
                 <li>
                     <strong>Interface</strong>
                     <p>
-                        You can stop music, play music, and select a directory to load.
-                        <img src={process.env.PUBLIC_URL +"/mp3.png"} alt="Store" />
+                        You need to insert the name of the city, then select Celsius or Fahrenheit, and press 'Get Weather'
+                        <img src={process.env.PUBLIC_URL +"/weather.png"} alt="Store" />
                     </p>
                 </li>
 
@@ -24,4 +24,4 @@ function Mp3Player() {
     );
 }
 
-export default Mp3Player;
+export default  Weather;

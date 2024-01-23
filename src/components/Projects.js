@@ -7,6 +7,14 @@ function Projects() {
         <div className="projects-container">
             <h2>My Projects</h2>
             <div className="project">
+                <Link to="/scripts" className="project-details">
+                    <h3>Scripts</h3>
+                </Link>
+                <Link to="/scripts">
+                    <img src={process.env.PUBLIC_URL +"/script.jpeg"} alt="Project 1" />
+                </Link>
+            </div>
+            <div className="project">
                 <Link to="/notes" className="project-details">
                     <h3>Notes Application</h3>
                     <p>A notes application made with PHP/HTML/CSS/Js</p>
@@ -30,16 +38,16 @@ function Projects() {
                     <p>An Mp3Player made with Python</p>
                 </Link>
                 <Link to="/Mp3Player">
-                    <img src={process.env.PUBLIC_URL +"/mp3.png"} alt="Project 1" />
+                    <img src={process.env.PUBLIC_URL +"/mp3-logo.png"} alt="Project 1" />
                 </Link>
             </div>
             <div className="project">
-                <Link to="/ip" className="project-details">
-                    <h3>Get Location from a URL</h3>
-                    <p>With this script, you can determine the location of a URL</p>
+                <Link to="/weather" className="project-details">
+                    <h3>Weather App</h3>
+                    <p>A weather app made with Python</p>
                 </Link>
-                <Link to="/ip">
-                    <img src={process.env.PUBLIC_URL +"/ip.png"} alt="Project 1" />
+                <Link to="/weather">
+                    <img src={process.env.PUBLIC_URL +"/weather-logo.png"} alt="Project 1" />
                 </Link>
             </div>
         </div>

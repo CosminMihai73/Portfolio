@@ -7,6 +7,8 @@ import Fishstore from './components/fishstore';
 import Notes from "./components/notes";
 import Mp3Player from "./components/Mp3Player";
 import IPFromURL from "./components/ip";
+import Scripts from "./components/Scripts";
+import Weather from "./components/weather";
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
                     <Route path="/notes" element={<Notes />} />
                     <Route path="/Mp3Player" element={<Mp3Player />} />
                     <Route path="/ip" element={<IPFromURL />} />
+                    <Route path="/Scripts" element={<Scripts />} />
+                    <Route path="/weather" element={<Weather />} />
 
                 </Routes>
             </div>
