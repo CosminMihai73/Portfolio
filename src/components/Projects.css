@@ -1,6 +1,7 @@
 .project:hover {
     transform: scale(1.05);
-    transition: transform 0.3s ease-in-out; /* Adăugăm tranziția pentru un efect mai plăcut */
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adăugăm o umbră la survol */
 }
 
 .projects-container {
@@ -14,6 +15,7 @@
     border: 1px solid #ccc;
     padding: 15px;
     margin-bottom: 20px;
+    transition: box-shadow 0.3s ease-in-out; /* Adăugăm o tranziție pentru umbră */
 }
 
 .project img {
@@ -25,7 +27,21 @@
     flex: 1;
     color: #555;
 }
+
 .project a {
-    text-decoration: none; /* Elimină sublinierea */
-    color: inherit; /* Păstrează culoarea textului implicită */
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* Media query pentru stilizare responsivă */
+@media screen and (max-width: 600px) {
+    .project {
+        flex-direction: column; /* Așezare verticală la ecrane mici */
+    }
+    .project img {
+        max-width: 100%; /* Imaginea să nu depășească lățimea containerului */
+        margin-bottom: 10px;
+    }
 }
