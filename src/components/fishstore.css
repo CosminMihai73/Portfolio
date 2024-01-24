@@ -49,3 +49,32 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
+.password-image1,
+.password-image2 {
+    max-width: 300px; /* Adjust the maximum width as needed */
+    max-height: 200px; /* Adjust the maximum height as needed */
+    margin: 30px; /* Adjust the margin as needed */
+    text-align: center;
+}
+
+.password-image3 ,.weather,.mp3{
+    max-width: 500px; /* Adjust the maximum width as needed for the third image */
+    max-height: 400px; /* Adjust the maximum height as needed for the third image */
+    margin: 30px; /* Adjust the margin as needed for the third image */
+    text-align: center;
+}
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .password-images-container {
+        flex-direction: column; /* Stack images vertically on small screens */
+    }
+
+    .password-image1,
+    .password-image2,
+    .password-image3,
+    .weather,
+    .mp3 {
+        max-width: 100%; /* Make images fill the container width on small screens */
+    }
+}

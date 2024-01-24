@@ -9,6 +9,7 @@ import Mp3Player from "./components/Mp3Player";
 import IPFromURL from "./components/ip";
 import Scripts from "./components/Scripts";
 import Weather from "./components/weather";
+import Password from "./components/Password";
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
                     <Route path="/ip" element={<IPFromURL />} />
                     <Route path="/Scripts" element={<Scripts />} />
                     <Route path="/weather" element={<Weather />} />
+                    <Route path="/password" element={<Password />} />
+
 
                 </Routes>
             </div>

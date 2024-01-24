@@ -33,6 +33,15 @@ function Projects() {
                 </Link>
             </div>
             <div className="project">
+                <Link to="/password" className="project-details">
+                    <h3>Password Generator</h3>
+                    <p>An Password Generator made with Python</p>
+                </Link>
+                <Link to="/password">
+                    <img src={process.env.PUBLIC_URL +"/password-logo.png"} alt="Project 1" />
+                </Link>
+            </div>
+            <div className="project">
                 <Link to="/Mp3Player" className="project-details">
                     <h3>Mp3Player</h3>
                     <p>An Mp3Player made with Python</p>
