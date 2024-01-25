@@ -42,6 +42,15 @@ function Projects() {
                 </Link>
             </div>
             <div className="project">
+                <Link to="/tictactoe" className="project-details">
+                    <h3>Tic-tac-toe game</h3>
+                    <p>Tic-tac-toe game made with Java</p>
+                </Link>
+                <Link to="/tictactoe">
+                    <img src={process.env.PUBLIC_URL +"/tictactoe-logo.png"} alt="Project 1" />
+                </Link>
+            </div>
+            <div className="project">
                 <Link to="/Mp3Player" className="project-details">
                     <h3>Mp3Player</h3>
                     <p>An Mp3Player made with Python</p>

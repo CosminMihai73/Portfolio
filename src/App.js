@@ -10,6 +10,7 @@ import IPFromURL from "./components/ip";
 import Scripts from "./components/Scripts";
 import Weather from "./components/weather";
 import Password from "./components/Password";
+import TicTacToe from "./components/TicTacToe";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
                     <Route path="/Scripts" element={<Scripts />} />
                     <Route path="/weather" element={<Weather />} />
                     <Route path="/password" element={<Password />} />
+                    <Route path="/tictactoe" element={<TicTacToe />} />
 
 
                 </Routes>

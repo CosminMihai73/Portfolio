@@ -4,7 +4,7 @@ import './fishstore.css'
 function FishStore() {
     return (
         <div className="fish-store-container">
-            <h2>Fishing Store Documentation</h2>
+            <h2>Fishing Store</h2>
             <p>
                 A web-based application developed from scratch using HTML, PHP, CSS, and JavaScript.
                 The system includes a MySQL database to manage product information, user authentication, and shopping cart functionality.

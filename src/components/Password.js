@@ -53,17 +53,17 @@ function Password() {
 
                     </p>
 
-                        <div className="password-images-container">
-                            <img src={process.env.PUBLIC_URL + "/pw1.png"} alt="Pw1" className="password-image1" />
-
-                            <img src={process.env.PUBLIC_URL + "/pw2.png"} alt="Pw2" className="password-image2" />
-
-                            <img src={process.env.PUBLIC_URL + "/pw3.png"} alt="Pw3" className="password-image3" />
-                        </div>
 
                 </li>
 
             </ol>
+            <div className="password-images-container">
+                <img src={process.env.PUBLIC_URL + "/pw1.png"} alt="Pw1" className="password-image1" />
+
+                <img src={process.env.PUBLIC_URL + "/pw2.png"} alt="Pw2" className="password-image2" />
+
+                <img src={process.env.PUBLIC_URL + "/pw3.png"} alt="Pw3" className="password-image3" />
+            </div>
 
         </div>
     );

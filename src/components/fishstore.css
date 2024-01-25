@@ -54,14 +54,14 @@
 .password-image2 {
     max-width: 300px; /* Adjust the maximum width as needed */
     max-height: 200px; /* Adjust the maximum height as needed */
-    margin: 30px; /* Adjust the margin as needed */
+    margin: 20px; /* Adjust the margin as needed */
     text-align: center;
 }
 
-.password-image3 ,.weather,.mp3{
+.password-image3 ,.weather,.mp3,.tictactoe{
     max-width: 500px; /* Adjust the maximum width as needed for the third image */
     max-height: 400px; /* Adjust the maximum height as needed for the third image */
-    margin: 30px; /* Adjust the margin as needed for the third image */
+    margin: 20px; /* Adjust the margin as needed for the third image */
     text-align: center;
 }
 /* Responsive styles */
@@ -74,7 +74,8 @@
     .password-image2,
     .password-image3,
     .weather,
-    .mp3 {
+    .mp3,
+    .tictactoe {
         max-width: 100%; /* Make images fill the container width on small screens */
     }
 }
